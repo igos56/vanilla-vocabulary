@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.body {
+    background-image: url(img/bg.jpeg);
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.main-title {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.main-title span {
+    color:rgb(241, 9, 203);
+}
+.inputs-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inputs {
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(255, 255, 255, .85);
+}
+.btn-add {
+    padding: 10px;
+    border: 2px solid rgb(241, 9, 203);
+}
+.btn-add:hover {
+    padding: 10px;
+    background-color: rgb(241, 9, 203);
+}
+.words-pair {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    padding: 10px;
+    border-bottom: 4px solid rgb(214, 210, 210);
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.words-pair.low {
+    background-color: rgba(251, 255, 0, 0.7);
+}
+.words-pair.middle {
+    background-color: rgba(20, 233, 91, 0.7);
+}
+.words-pair.hight {
+    background-color: rgba(241, 9, 203, .7);
+}
+.inputs.invalid {
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, .5);
+}
+.eng-word {
+    font-size: 30px;
+    font-weight: 600;
+}
+.radio-inputs {
+    margin-right: 5px;
+}
